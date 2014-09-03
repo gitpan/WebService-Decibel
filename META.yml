@@ -1,0 +1,37 @@
+---
+abstract: 'A simple and fast interface to the Decibel API'
+author:
+  - 'Hondallica <hondallica@gmail.com>'
+build_requires:
+  Test::More: '0.98'
+configure_requires:
+  Module::Build::Tiny: '0.035'
+dynamic_config: 0
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: WebService-Decibel
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  WebService::Decibel:
+    file: lib/WebService/Decibel.pm
+    version: '0.01'
+requires:
+  perl: '5.008001'
+resources:
+  bugtracker: https://github.com/hondallica/p5-WebService-Decibel/issues
+  homepage: https://github.com/hondallica/p5-WebService-Decibel
+  repository: https://github.com/hondallica/p5-WebService-Decibel.git
+version: '0.01'
+x_authority: cpan:HONDALLIC
