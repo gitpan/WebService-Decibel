@@ -42,6 +42,15 @@
       },
       "runtime" : {
          "requires" : {
+            "Cache::LRU" : "0",
+            "Carp" : "0",
+            "Furl" : "0",
+            "JSON::XS" : "0",
+            "Moo" : "0",
+            "Net::DNS::Lite" : "0",
+            "URI" : "0",
+            "URI::QueryParam" : "0",
+            "namespace::clean" : "0",
             "perl" : "5.008001"
          }
       },
@@ -54,7 +63,7 @@
    "provides" : {
       "WebService::Decibel" : {
          "file" : "lib/WebService/Decibel.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -68,6 +77,6 @@
          "web" : "https://github.com/hondallica/p5-WebService-Decibel"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:HONDALLIC"
 }
