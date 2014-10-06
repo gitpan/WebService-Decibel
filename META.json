@@ -63,7 +63,7 @@
    "provides" : {
       "WebService::Decibel" : {
          "file" : "lib/WebService/Decibel.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -77,6 +77,6 @@
          "web" : "https://github.com/hondallica/p5-WebService-Decibel"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_authority" : "cpan:HONDALLIC"
 }
